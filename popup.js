@@ -21,3 +21,19 @@ changeColor.addEventListener("click", async () => {
       document.body.style.backgroundColor = color;
     });
   }
+
+  // function setPageBackgroundColor() {
+  //   chrome.storage.sync.get("color", ({ color }) => {
+  //     document.body.style.backgroundColor = color;
+  //     var img = document.createElement("img");                 
+  //     img.src = "./assets/images/favicon.png"; 
+  //     document.getElementById('body').appendChild(img);
+  //     // height: 30px;
+  //     // width: 30px;
+  //     // outline: none;
+  //     // margin: 10px;
+  //     // border: none;
+  //     // border-radius: 2px;
+  //     // node.setAtrr        // Create a text node                     
+  //     // document.body.appendChild(node); 
+  //   });
